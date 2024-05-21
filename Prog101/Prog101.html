@@ -1,0 +1,61 @@
+<!-- Завдання 1.
+Створити html файл з формою для додавання викладача.
+Форма повинна містити наступні поля:
+Повне ім’я, стать, дата народження, email, телефон,
+бажаний колір фону, країна, місто, коментар.
+-->
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Додавання викладача</title>
+</head>
+<body>
+<header>
+    <h1>Форма для додавання викладача!</h1>
+</header>
+
+<form>
+    <label>Ім'я викладача:
+        <input type="text"><br/>
+    </label>
+
+    <label>Стать:
+        <input type="radio" name="sex">Чоловіча
+        <input type="radio" name="sex">Жіноча<br/>
+    </label>
+
+    <label>Дата народження:
+        <input type="date"><br/>
+    </label>
+
+    <label>Email:
+        <input type="email"><br/>
+    </label>
+
+    <label>Телефон:
+        <input type="tel"><br/>
+    </label>
+
+    <label>Бажаний колір фону:
+        <input type="color"><br/>
+    </label>
+
+    <label>Країна:
+        <input type="text"><br/>
+    </label>
+
+    <label>Місто:
+        <input type="text"><br/>
+    </label>
+
+    <label>Коментар:
+        <textarea></textarea><br/>
+    </label>
+
+    <button>Додати викладача</button>
+</form>
+</body>
+</html>
